@@ -50,10 +50,14 @@ app.get('*', function (req, res) {
 	});
 });
 
-var server = _http2.default.createServer(app);
-
-server.listen(3003);
-
-server.on('listening', function () {
-	console.log('listening on 3003');
+app.listen(port, function () {
+	console.log('Service started on port :' + port);
 });
+
+// const server = http.createServer(app);
+
+// server.listen(3003);
+
+// server.on('listening', () => {
+// 	console.log('listening on 3003');
+// });
