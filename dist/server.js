@@ -21,6 +21,7 @@ var _routes = require('./routes');
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 var app = (0, _express2.default)();
+var port = process.env.PORT || 5000;
 
 app.use(_express2.default.static('public'));
 
