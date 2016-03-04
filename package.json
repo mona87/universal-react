@@ -4,8 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "babel-node server.js"
+    "serve": "node dist/server.js"
   },
+  "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
@@ -28,6 +29,7 @@
     "express"
   ],
   "devDependencies": {
+
     "webpack": "^1.12.10"
   }
 }
